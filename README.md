@@ -6,3 +6,4 @@ read_scene_imgs.py: A script to load test images (with 6D camera poses and the g
 
 # Author
 Jun Yang
+junyang.yang@mail.utoronto.ca
