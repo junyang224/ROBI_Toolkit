@@ -5,5 +5,5 @@ Python scripts to work on the ROBI dataset - a multi-view dataset for reflective
 read_scene_imgs.py: A script to load test images (with 6D camera poses and the ground truth 6D object poses).
 
 # Author
-Jun Yang
+Jun Yang\
 junyang.yang@mail.utoronto.ca
