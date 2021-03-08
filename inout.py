@@ -1,6 +1,7 @@
 import ruamel.yaml as yaml
 import numpy as np
 import json
+import cv2
 
 def load_img_list(scene_list_file):
     try:
@@ -51,3 +52,10 @@ def load_objPose(gt_file):
     except:
         print(gt_file, "  does not exist!!!")
         return all_gt_poses
+
+def convertDepthToDisparity(depth_map, f, cx_left, cx_right, baseline, disparity_shift):
+    cv_calib_disparity = (cx_right - cx_left) / baseline
+    disparity_map = (f / depth_map - cv_calib_disparity) * baseline + disparity_shift
+    disparity_map[depth_map==0] = 0
+
+    return -disparity_map

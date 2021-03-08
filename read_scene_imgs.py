@@ -9,9 +9,10 @@ np.set_printoptions(precision=8, suppress=True)
 ######################################
 # Path to the ROBI dataset
 data_path = '/Add/your/path/here/ROBI/'
-obj = 'DSub_connector' # Object
+#data_path = 'D:/ROBI/'
+obj = 'DSub_connector' # Object Name
 # Camera sensor to use
-sensor = 'RealSense' #'RealSense'
+sensor = 'Ensenso' #'RealSense'
 # Scene ID
 scene_ids = [1,2,3,4,5,6,7,8,9]
 ######################################
@@ -66,8 +67,6 @@ scene_GT_path = os.path.join(data_path, obj, 'Scene_{}','GT_world2obj.json')
 scene_list_path = os.path.join(data_path, obj, 'Scene_{}','{}','list.txt')
 scene_DEPTH_path = os.path.join(data_path, obj, 'Scene_{}','{}','Depth','DEPTH_{}.png')
 scene_DEPTH_camPose = os.path.join(data_path, obj, 'Scene_{}','{}','Depth','DEPTH_{}.json')
-scene_LEFT_PATTERN_path = os.path.join(data_path, obj, 'Scene_{}','{}','StereoPattern','LEFT_{}.bmp')
-scene_RIGHT_PATTERN_path = os.path.join(data_path, obj, 'Scene_{}','{}','StereoPattern','RIGHT_{}.bmp')
 # For Ensenso only
 scene_LEFT_path = os.path.join(data_path, obj, 'Scene_{}','{}','Stereo','LEFT_{}.bmp')
 scene_LEFT_camPose = os.path.join(data_path, obj, 'Scene_{}','{}','Stereo','LEFT_{}.json')
@@ -94,12 +93,7 @@ for scene_id in scene_ids:
         DEPTH_path = scene_DEPTH_path.format(scene_id, sensor, view)
         depth_camPose_path = scene_DEPTH_camPose.format(scene_id, sensor, view)
         depth_camPose = inout.load_camPose_info(depth_camPose_path)
-        depth_img = cv2.imread(DEPTH_path) * depth_unit
-        # load Pattern Stereo Img
-        LEFT_PATTERN_path = scene_LEFT_PATTERN_path.format(scene_id, sensor, view)
-        RIGHT_PATTERN_path = scene_RIGHT_PATTERN_path.format(scene_id, sensor, view)
-        left_pattern_img = cv2.imread(LEFT_PATTERN_path)
-        right_pattern_img = cv2.imread(RIGHT_PATTERN_path)
+        depth_img = cv2.imread(DEPTH_path, cv2.IMREAD_ANYDEPTH) * depth_unit
         # For different camera
         if sensor == 'Ensenso':
             # Load Stereo Img for Ensenso
@@ -108,8 +102,8 @@ for scene_id in scene_ids:
             LEFT_camPose_path = scene_LEFT_camPose.format(scene_id, sensor, view)
             RIGHT_camPose_path = scene_RIGHT_camPose.format(scene_id, sensor, view)
 
-            left_img = cv2.imread(LEFT_path)
-            right_img = cv2.imread(RIGHT_path)
+            left_img = cv2.imread(LEFT_path, cv2.IMREAD_GRAYSCALE)
+            right_img = cv2.imread(RIGHT_path, cv2.IMREAD_GRAYSCALE)
             left_camPose = inout.load_camPose_info(LEFT_camPose_path)
             right_camPose = inout.load_camPose_info(RIGHT_camPose_path)
         if sensor == 'RealSense':
@@ -117,5 +111,5 @@ for scene_id in scene_ids:
             RGB_path = scene_RGB_path.format(scene_id, sensor, view)
             RGB_camPose_path = scene_RGB_camPose.format(scene_id, sensor, view)
 
-            RGB_img = cv2.imread(RGB_path)
+            RGB_img = cv2.imread(RGB_path, cv2.IMREAD_COLOR)
             RGB_camPose = inout.load_camPose_info(RGB_camPose_path)
