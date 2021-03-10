@@ -8,4 +8,4 @@ read_pattern_imgs.py: A script to load stereo pattern images and disparity maps.
 # Author
 Jun Yang\
 junyang.yang@mail.utoronto.ca\
-Toronto Robotics and AI laboratory (TRAIL), Institute for Aerospace Studies, University of Toronto
+Institute for Aerospace Studies, University of Toronto
