@@ -14,13 +14,13 @@ read_pattern_imgs.py: A script to load stereo pattern images and disparity maps.
 # Dataset Structure
 If you want to use the ground truth depth map (GT_Depth), here is the the relationship between GT_Depth and Ensenso sensor folder:
 
-For Scene 1-3:
+For Scene 1-3: \
 GT_Depth: view_0---view_16 ---> Ensenso/Depth: DEPTH_view_71---DEPTH_view_87
 
-For Scene 4-5:
+For Scene 4-5: \
 GT_Depth: view_0---view_105 ---> Ensenso/Depth: DEPTH_view_0---DEPTH_view_105
 
-For Scene 6-7:
+For Scene 6-7: \
 GT_Depth: view_0---view_2 ---> Ensenso/Depth: DEPTH_view_12---DEPTH_view_14 \
 GT_Depth: view_3 ---> Ensenso/Depth: DEPTH_view_16 \
 GT_Depth: view_4 ---> Ensenso/Depth: DEPTH_view_18 \
@@ -28,7 +28,7 @@ GT_Depth: view_5 ---> Ensenso/Depth: DEPTH_view_22 \
 GT_Depth: view_6 ---> Ensenso/Depth: DEPTH_view_24 \
 GT_Depth: view_7---view_23 ---> Ensenso/Depth: DEPTH_view_25---DEPTH_view_41
 
-For Scene 8-9:
+For Scene 8-9: \
 GT_Depth: view_0---view_67 ---> Ensenso/Depth: DEPTH_view_0---DEPTH_view_67
 
 # Author
