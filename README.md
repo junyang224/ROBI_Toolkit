@@ -11,8 +11,8 @@ ruamel.yaml
 read_scene_imgs.py: A script to load test images (with 6D camera poses and the ground truth 6D object poses).\
 read_pattern_imgs.py: A script to load stereo pattern images and disparity maps.
 
-# Dataset Structure
-If you want to use the ground truth depth map (GT_Depth), here is the the relationship between GT_Depth and Ensenso sensor folder:
+# Ground Truth Depth Map
+Please note that, we capture the ground truth depth map with only Ensenso camera (no Realsense data). If you want to use the ground truth depth map (in "GT_Depth" folder), below is the the relationship between GT_Depth and Ensenso sensor folder:
 
 For Scene 1-3: \
 GT_Depth: view_0---view_16 ---> Ensenso/Depth: DEPTH_view_71---DEPTH_view_87
