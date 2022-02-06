@@ -14,9 +14,9 @@ read_pattern_imgs.py: A script to load stereo pattern images and disparity maps.
 # Ground Truth Depth Map
 Please note that, we capture the ground truth depth map with only Ensenso camera (no Realsense data). For Scene 4, 5, 8, 9, each viewpoint image has the corresponding GT depth map (in "GT_Depth" folder). For Scene 1, 2, 3, 6, 7, the GT depth maps were captured only for a subset of viewpoints in Ensenso data folder: \
 For Scene 1-3: \
-DEPTH_view_71---DEPTH_view_87
+DEPTH_view_71-DEPTH_view_87 \
 For Scene 6-7: \
-DEPTH_view_12---DEPTH_view_14, DEPTH_view_16, DEPTH_view_18, DEPTH_view_22, DEPTH_view_24---DEPTH_view_41
+DEPTH_view_12-DEPTH_view_14, DEPTH_view_16, DEPTH_view_18, DEPTH_view_22, DEPTH_view_24-DEPTH_view_41
 
 # Author
 Jun Yang\
