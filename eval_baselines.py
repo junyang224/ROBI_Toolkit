@@ -31,6 +31,7 @@ viewpoint = 10
 
 # Data path Info
 #######################################################################
+# The ground truth of object poses are under world frame
 GT_path = os.path.join(data_path, obj, 'Scene_{}','GT_world2obj.json')
 GT_path = GT_path.format(scene_id)
 GT_poses = inout.load_objPose(GT_path)
@@ -39,6 +40,8 @@ num_objects_gt = len(GT_poses)
 
 # Result path Info
 #######################################################################################
+# The estimatad object poses are under world frame
+# world2object = world2camera * camera2object
 RESULT_path = os.path.join(result_path, sensor, obj, method, 'Scene{}','view_{}.json')
 RESULT_path = RESULT_path.format(scene_id, viewpoint)
 ESTIMATED_poses = inout.load_objPose(RESULT_path)
