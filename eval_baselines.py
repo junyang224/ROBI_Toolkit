@@ -48,7 +48,7 @@ ESTIMATED_poses = inout.load_objPose(RESULT_path)
 num_objects_est = len(ESTIMATED_poses)
 #######################################################################################
 
-# Evaluation
+# Evaluation: Load object poses
 ###########################################################################################################
 for i in range(0, num_objects_gt):
     gt_id = 'Object_' + str(i + 1)
