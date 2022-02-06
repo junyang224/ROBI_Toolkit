@@ -18,7 +18,7 @@ result_path = '/Add/your/path/here/Baseline_results/'
 #result_path = 'D:/Baseline_results/'
 obj = 'Zigzag' # Object Name
 # Camera sensor to use
-sensor = 'RealSense' #'RealSense'
+sensor = 'Ensenso' #'RealSense'
 # Baseline approach
 method = 'AAE' # Line2D, PPF
 # Scene ID
