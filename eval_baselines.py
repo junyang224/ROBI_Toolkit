@@ -6,10 +6,8 @@ import inout
 
 np.set_printoptions(precision=8, suppress=True)
 
-
-
-# Dataset Info
-######################################
+# Dataset and Results Info
+######################################################
 # Path to the ROBI dataset
 data_path = '/Add/your/path/here/ROBI/'
 #data_path = 'D:/ROBI/'
@@ -25,9 +23,7 @@ method = 'AAE' # Line2D, PPF
 scene_id = 5
 # Viewpoint
 viewpoint = 10
-######################################
-
-
+######################################################
 
 # Data path Info
 #######################################################################
@@ -49,17 +45,19 @@ num_objects_est = len(ESTIMATED_poses)
 #######################################################################################
 
 # Evaluation: Load object poses
-###########################################################################################################
+############################################
+# Load GT poses
 for i in range(0, num_objects_gt):
     gt_id = 'Object_' + str(i + 1)
     gt_pose = GT_poses[gt_id]
     print("GT Pose for", gt_id, ":")
     print(gt_pose, "\n")
 
+# Load estimated poses
 for j in range(0, num_objects_est):
     est_id = 'Object_' + str(j + 1)
     est_pose = ESTIMATED_poses[est_id]
     print("Estimated Pose by", method, ":")
     print(est_pose, "\n")
-###########################################################################################################
+############################################
 
