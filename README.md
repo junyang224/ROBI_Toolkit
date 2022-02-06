@@ -28,9 +28,9 @@ junyang.yang@mail.utoronto.ca\
 Institute for Aerospace Studies, University of Toronto
 
 # References
-[1] Drost, B., Ulrich, M., Navab, N., & Ilic, S. (2010, June). Model globally, match locally: Efficient and robust 3D object recognition. In 2010 IEEE computer society conference on computer vision and pattern recognition (pp. 998-1005). Ieee.\
-[2] Hinterstoisser, S., Lepetit, V., Ilic, S., Holzer, S., Bradski, G., Konolige, K., & Navab, N. (2012, November). Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes. In Asian conference on computer vision (pp. 548-562). Springer, Berlin, Heidelberg.\
-[3] Sundermeyer, M., Marton, Z. C., Durner, M., Brucker, M., & Triebel, R. (2018). Implicit 3d orientation learning for 6d object detection from rgb images. In Proceedings of the european conference on computer vision (ECCV) (pp. 699-715).
+[1] Drost, Bertram, et al. "Model globally, match locally: Efficient and robust 3D object recognition." 2010 IEEE computer society conference on computer vision and pattern recognition. Ieee, 2010.\
+[2] Hinterstoisser, Stefan, et al. "Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes." Asian conference on computer vision. Springer, Berlin, Heidelberg, 2012.\
+[3] Sundermeyer, Martin, et al. "Implicit 3d orientation learning for 6d object detection from rgb images." Proceedings of the european conference on computer vision (ECCV). 2018.
 
 # Citation
 If you find ROBI dataset useful in your work, please consider citing:
