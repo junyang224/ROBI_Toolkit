@@ -89,6 +89,7 @@ for scene_id in scene_ids:
         if (disparity != 0):
             intensity_left = left_pattern_img[pix_y, pix_left_x]
             pix_right_x = pix_left_x + disparity
+            intensity_right = right_pattern_img[pix_y, pix_right_x]
 
 
 
