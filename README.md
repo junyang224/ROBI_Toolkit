@@ -9,7 +9,7 @@ ruamel.yaml
 
 # Code
 read_scene_imgs.py: A script to load test images (with 6D camera poses and the ground truth 6D object poses).\
-read_pattern_imgs.py: A script to load stereo pattern images and disparity maps.
+read_pattern_imgs.py: A script to load stereo pattern images and disparity maps. \
 eval_baselines.py: A script to load ground truth object poses and the estimated object poses from provided baseline methods.
 
 # Ground Truth Depth Map
