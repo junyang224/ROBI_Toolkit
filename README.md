@@ -42,6 +42,7 @@ If you find ROBI dataset useful in your work, please consider citing:
       title={ROBI: A Multi-View Dataset for Reflective Objects in Robotic Bin-Picking},
       author={Yang, Jun and Gao, Yizhou and Li, Dong and Waslander, Steven L},
       booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={9788--9795},
       year={2021},
       organization={IEEE}
     }
