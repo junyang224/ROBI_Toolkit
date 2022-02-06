@@ -23,7 +23,7 @@ Please note that, we capture the ground truth depth map with only Ensenso camera
 For Scene 1-3: \
 DEPTH_view_{71-87} \
 For Scene 6-7: \
-DEPTH_view_{12-14,16,18,22,24-41}
+DEPTH_view_{12-14, 16, 18, 22, 24-41}
 
 # Author
 Jun Yang\
