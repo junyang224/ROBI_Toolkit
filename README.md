@@ -8,7 +8,7 @@ numpy\
 ruamel.yaml
 
 # Baseline Methods
-We provide the evaluation results on three object pose estimators, reasearchers are welcome to compare them against their our methods. The evaluation results can be download [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
+We provide the evaluation results on three object pose estimators (PPF, Line2D, AAE), reasearchers are welcome to compare them against their our methods. The evaluation results can be download [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
 
 # Code
 read_scene_imgs.py: A script to load test images (with 6D camera poses and the ground truth 6D object poses).\
@@ -26,3 +26,13 @@ DEPTH_view_12-DEPTH_view_14, DEPTH_view_16, DEPTH_view_18, DEPTH_view_22, DEPTH_
 Jun Yang\
 junyang.yang@mail.utoronto.ca\
 Institute for Aerospace Studies, University of Toronto
+
+# Citation
+If you find ROBI dataset useful in your research, please consider citing:
+
+    @inproceedings{xiang2018posecnn,
+        Author = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
+        Title = {PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes},
+        Journal   = {Robotics: Science and Systems (RSS)},
+        Year = {2018}
+    }
