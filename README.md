@@ -8,7 +8,7 @@ numpy\
 ruamel.yaml
 
 # Baseline Methods
-We provide the evaluation results on three object pose estimators (PPF, Line2D, AAE), reasearchers are welcome to compare them against their our methods. The evaluation results can be download [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
+We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The evaluation results can be download [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
 
 # Code
 read_scene_imgs.py: A script to load test images (with 6D camera poses and the ground truth 6D object poses).\
@@ -26,6 +26,9 @@ DEPTH_view_12-DEPTH_view_14, DEPTH_view_16, DEPTH_view_18, DEPTH_view_22, DEPTH_
 Jun Yang\
 junyang.yang@mail.utoronto.ca\
 Institute for Aerospace Studies, University of Toronto
+
+# References
+[3] Sundermeyer, M., Marton, Z. C., Durner, M., Brucker, M., & Triebel, R. (2018). Implicit 3d orientation learning for 6d object detection from rgb images. In Proceedings of the european conference on computer vision (ECCV) (pp. 699-715).
 
 # Citation
 If you find ROBI dataset useful in your work, please consider citing:
