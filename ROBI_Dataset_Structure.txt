@@ -5,7 +5,7 @@ ROBI Dataset
                   -GT_Depth_Raw
                       -DEPTH_view_0.png
                       -DEPTH_view_0.json				  
-					   ...
+					   ...					   
                   -Ensenso
                       -list.txt
                       -Depth
@@ -44,3 +44,4 @@ ROBI Dataset
               ...
         -Chrome_screw
          ...
+		 
