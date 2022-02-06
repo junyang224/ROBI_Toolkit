@@ -28,7 +28,7 @@ junyang.yang@mail.utoronto.ca\
 Institute for Aerospace Studies, University of Toronto
 
 # Citation
-If you find ROBI dataset useful in your research, please consider citing:
+If you find ROBI dataset useful in your work, please consider citing:
 
     @inproceedings{yang2021robi,
       title={ROBI: A Multi-View Dataset for Reflective Objects in Robotic Bin-Picking},
