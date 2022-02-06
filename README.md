@@ -11,7 +11,7 @@ numpy\
 ruamel.yaml
 
 # Baseline Methods
-We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
+We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing).
 
 # Code
 "read_scene_imgs.py": A script to load test images (with 6D camera poses and the ground truth 6D object poses).\
