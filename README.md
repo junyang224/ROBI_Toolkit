@@ -30,9 +30,21 @@ Institute for Aerospace Studies, University of Toronto
 # Citation
 If you find ROBI dataset useful in your research, please consider citing:
 
-    @inproceedings{xiang2018posecnn,
-        Author = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
-        Title = {PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes},
-        Journal   = {Robotics: Science and Systems (RSS)},
-        Year = {2018}
+    @inproceedings{yang2021robi,
+      title={ROBI: A Multi-View Dataset for Reflective Objects in Robotic Bin-Picking},
+      author={Yang, Jun and Gao, Yizhou and Li, Dong and Waslander, Steven L},
+      booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      year={2021},
+      organization={IEEE}
+    }
+    
+    @article{yang2021probabilistic,
+      title={Probabilistic Multi-View Fusion of Active Stereo Depth Maps for Robotic Bin-Picking},
+      author={Yang, Jun and Li, Dong and Waslander, Steven L},
+      journal={IEEE Robotics and Automation Letters},
+      volume={6},
+      number={3},
+      pages={4472--4479},
+      year={2021},
+      publisher={IEEE}
     }
