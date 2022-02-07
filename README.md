@@ -11,12 +11,12 @@ numpy\
 ruamel.yaml
 
 # Baseline Methods
-We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "eval_baselines.py" to load the the estimated object poses from these baseline approaches.
+We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "**eval_baselines.py**" to load the the estimated object poses from these baseline approaches.
 
 # Code
- * "read_scene_imgs.py": A script to load test images (with 6D camera poses and the ground truth 6D object poses).
- * "read_pattern_imgs.py": A script to load stereo pattern images and disparity maps. 
- * "eval_baselines.py": A script to load ground truth and the estimated object poses from provided baseline methods.
+ * "**read_scene_imgs.py**": A script to load test images (with 6D camera poses and the ground truth 6D object poses).
+ * "**read_pattern_imgs.py**": A script to load stereo pattern images and disparity maps. 
+ * "**eval_baselines.py**": A script to load ground truth and the estimated object poses from provided baseline methods.
 
 # Ground Truth Depth Map
 Please note that, we capture the ground truth depth map with only Ensenso camera (no Realsense data). 
