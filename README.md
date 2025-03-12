@@ -27,7 +27,8 @@ Please note that, we capture the ground truth depth map with only Ensenso camera
 
 # Author
 Jun Yang\
-junyang.yang@mail.utoronto.ca\
+jun.yang@robotics.utias.utoronto.ca\
+jun.yang@ea.epson.com\
 Institute for Aerospace Studies, University of Toronto
 
 # References
