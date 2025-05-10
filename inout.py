@@ -40,6 +40,16 @@ def load_camPose_info(scene_file):
     except:
         return []
 
+def load_sceneInfo(scene_file):
+    scene_info = []
+    try:
+        with open(scene_file, "r") as f:
+            scene_info = json.load(f)
+        return scene_info
+    except:
+        print(scene_file, "  does not exist!!!")
+        return scene_info
+
 def load_objPose(gt_file):
     all_gt_poses = []
     try:
