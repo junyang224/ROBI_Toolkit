@@ -17,6 +17,7 @@ We provide the evaluation results on three object pose estimators (PPF [1], Line
  * "**read_scene_imgs.py**": A script to load test images (with 6D camera poses and the ground truth 6D object poses).
  * "**read_pattern_imgs.py**": A script to load stereo pattern images and disparity maps. 
  * "**eval_baselines.py**": A script to load ground truth and the estimated object poses from provided baseline methods.
+ * "**read_synthetic_imgs.py**": A script to load synthetic images (with 6D camera poses and the ground truth 6D object poses).
 
 # Ground Truth Depth Map
 Please note that, we capture the ground truth depth map with only Ensenso camera (no Realsense data). 
