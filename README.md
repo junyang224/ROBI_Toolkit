@@ -63,6 +63,17 @@ If you find ROBI dataset useful in your work, please consider citing:
       publisher={IEEE}
     }
 
+    @article{yang2021probabilistic,
+      title={Probabilistic Multi-View Fusion of Active Stereo Depth Maps for Robotic Bin-Picking},
+      author={Yang, Jun and Li, Dong and Waslander, Steven L},
+      journal={IEEE Robotics and Automation Letters},
+      volume={6},
+      number={3},
+      pages={4472--4479},
+      year={2021},
+      publisher={IEEE}
+    }    
+
    @article{yang2025active,
      title={Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames},
      author={Yang, Jun and Xue, Wenjie and Ghavidel, Sahar and Waslander, Steven L},
