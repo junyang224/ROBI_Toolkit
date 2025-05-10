@@ -62,3 +62,10 @@ If you find ROBI dataset useful in your work, please consider citing:
       year={2021},
       publisher={IEEE}
     }
+
+   @article{yang2025active,
+     title={Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames},
+     author={Yang, Jun and Xue, Wenjie and Ghavidel, Sahar and Waslander, Steven L},
+     journal={arXiv preprint arXiv:2503.03726},
+     year={2025}
+   }    
