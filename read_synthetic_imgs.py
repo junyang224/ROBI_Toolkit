@@ -10,7 +10,7 @@ np.set_printoptions(precision=8, suppress=True)
 ######################################
 # Path to the ROBI dataset
 data_path = '/Add/your/path/here/ROBI_Synthetic/'
-obj = 'Zigzag_synthetic' # Object Name
+obj = 'Eye_bolt_synthetic' # Object Name
 # Camera sensor to use
 sensor = 'Ensenso'
 is_visualize = True
@@ -76,6 +76,7 @@ for json_name in os.listdir(synthetic_scene_path):
             T_cam2obj_idx = np.matmul(np.linalg.inv(T_world2cam), T_world2obj_idx)
 
             if is_visualize:
+                print("visibility_score:", visibility_score_idx)
                 plt.figure()
                 plt.subplot(1, 3, 1)
                 plt.imshow(left_img)
