@@ -1,12 +1,12 @@
 # ROBI_Toolkit
 Python scripts to work on the ROBI and T-ROBI dataset.\
-ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/robi.
-![ROBI](https://github.com/junyang224/ROBI_Toolkit/blob/main/robi.png)
-T-ROBI dataset is available at: [T-ROBI](https://www.trailab.utias.utoronto.ca/t-robi-dataset).  
+ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/robi.  
+![ROBI](https://github.com/junyang224/ROBI_Toolkit/blob/main/robi.png)  
+
+T-ROBI dataset is available at: [T-ROBI](https://www.trailab.utias.utoronto.ca/t-robi-dataset).<br>
 <p float="left">
   <img src="https://github.com/junyang224/ROBI_Toolkit/blob/main/trobi.png" width="750">
 </p>
-
 # Requirements
 Python >=3.5 \
 opencv-python >= 3.1 \
