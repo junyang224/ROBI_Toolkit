@@ -1,9 +1,8 @@
 # ROBI_Toolkit
 Python scripts to work on the ROBI and T-ROBI dataset.\
-ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/robi.\
-T-ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/t-robi-dataset.
+ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/robi.
 ![ROBI](https://github.com/junyang224/ROBI_Toolkit/blob/main/robi.png)
-
+T-ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/t-robi-dataset.
 
 # Requirements
 Python >=3.5 \
