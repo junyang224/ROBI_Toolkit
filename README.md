@@ -22,14 +22,17 @@ We provide the evaluation results on three object pose estimators (PPF [1], Line
  * "**read_synthetic_imgs.py**": A script to load synthetic images (with 6D camera poses and the ground truth 6D object poses).
 
 # Synthetic Data
-To support network training, we have created a large-scale synthetic dataset that includes all parts from the ROBI dataset. The synthetic data can be downloaded [here](https://www.trailab.utias.utoronto.ca/robi). Please run "**read_synthetic_imgs.py**" to load the the synthetics RGB-D images and 6D ground truth poses.
+To support network training, we have created a large-scale synthetic dataset that includes all parts from the ROBI and T-ROBI dataset. The synthetic data can be downloaded [here](https://www.trailab.utias.utoronto.ca/robi). Please run "**read_synthetic_imgs.py**" to load the the synthetics RGB-D images and 6D ground truth poses.
 
-# Ground Truth Depth Map
+# Ground Truth Depth Map in ROBI
 Please note that, we capture the ground truth depth map with only Ensenso camera (no Realsense data). 
  * For Scene 4, 5, 8, 9, each viewpoint image has the corresponding GT depth map (in "GT_Depth" folder). 
  * For Scene 1, 2, 3, 6, 7, the GT depth maps were captured only for a subset of viewpoints in Ensenso data folder: 
    - **Scene 1-3**: DEPTH_view_{71-87}
    - **Scene 6-7**: DEPTH_view_{12-14, 16, 18, 22, 24-41}
+
+# Ground Truth Depth Map in T-ROBI
+ * For each Scene, each viewpoint image has the corresponding GT depth map (in "GT_Depth" folder). 
 
 # Author
 Jun Yang\
@@ -43,7 +46,7 @@ Institute for Aerospace Studies, University of Toronto
 [3] Sundermeyer, Martin, et al. "Implicit 3d orientation learning for 6d object detection from rgb images." Proceedings of the european conference on computer vision (ECCV). 2018.
 
 # Citation
-If you find ROBI dataset useful in your work, please consider citing:
+If you find ROBI and T-ROBI dataset useful in your work, please consider citing:
 
     @inproceedings{yang2021robi,
       title={ROBI: A Multi-View Dataset for Reflective Objects in Robotic Bin-Picking},
