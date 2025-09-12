@@ -1,6 +1,7 @@
 # ROBI_Toolkit
-Python scripts to work on the ROBI and T-ROBI dataset - a multi-view dataset for reflective objects in robotic bin-picking.\
+Python scripts to work on the ROBI and T-ROBI dataset.\
 ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/robi.
+T-ROBI dataset is available at: https://www.trailab.utias.utoronto.ca/t-robi-dataset.
 ![ROBI](https://github.com/junyang224/ROBI_Toolkit/blob/main/robi.png)
 
 
