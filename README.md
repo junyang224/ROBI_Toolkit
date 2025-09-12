@@ -6,7 +6,7 @@ T-ROBI dataset is available at: [T-ROBI](https://www.trailab.utias.utoronto.ca/t
 
 <!-- Images smaller and side by side -->
 <p float="left">
-  <img src="https://github.com/junyang224/ROBI_Toolkit/blob/main/trobi.png" width="400">
+  <img src="https://github.com/junyang224/ROBI_Toolkit/blob/main/trobi.png" width="600">
 </p>
 
 # Requirements
