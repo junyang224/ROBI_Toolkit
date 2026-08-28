@@ -12,10 +12,10 @@ numpy\
 ruamel.yaml
 
 # Single-View Baseline Methods
-We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "**eval_baselines.py**" to load the the estimated object poses from these baseline approaches.
+We provide the evaluation results on three methods (PPF [1], Line2D [2], AAE [3]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "**eval_baselines.py**" to load the the estimated object poses from these baseline approaches.
 
 # Multi-View Baseline Methods
-We provide the evaluation results on two object pose estimators ([4] and [5]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/drive/folders/1e-mvChhS5d2Vk82Bz1dFEBXNchLyCSfx?usp=drive_link).
+We provide the evaluation results on two methods ([4] and [5]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/drive/folders/1e-mvChhS5d2Vk82Bz1dFEBXNchLyCSfx?usp=drive_link).
 
 
 
