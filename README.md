@@ -11,8 +11,13 @@ opencv-python >= 3.1 \
 numpy\
 ruamel.yaml
 
-# Baseline Methods
-We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), reasearchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "**eval_baselines.py**" to load the the estimated object poses from these baseline approaches.
+# Single-View Baseline Methods
+We provide the evaluation results on three object pose estimators (PPF [1], Line2D [2], AAE [3]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/file/d/1Ru3fmcYFBGOufGUp2jCkFaQgLCv7spIh/view?usp=sharing). Please run "**eval_baselines.py**" to load the the estimated object poses from these baseline approaches.
+
+# Multi-View Baseline Methods
+We provide the evaluation results on two object pose estimators ([4] and [5]), researchers are welcome to compare them against their our methods. The raw evaluation results can be downloaded [here](https://drive.google.com/drive/folders/1e-mvChhS5d2Vk82Bz1dFEBXNchLyCSfx?usp=drive_link).
+
+
 
 # Code
  * "**read_scene_imgs.py**": A script to load test images (with 6D camera poses and the ground truth 6D object poses).
@@ -43,6 +48,8 @@ Institute for Aerospace Studies, University of Toronto
 [1] Drost, Bertram, et al. "Model globally, match locally: Efficient and robust 3D object recognition." 2010 IEEE computer society conference on computer vision and pattern recognition. Ieee, 2010.\
 [2] Hinterstoisser, Stefan, et al. "Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes." Asian conference on computer vision. Springer, Berlin, Heidelberg, 2012.\
 [3] Sundermeyer, Martin, et al. "Implicit 3d orientation learning for 6d object detection from rgb images." Proceedings of the european conference on computer vision (ECCV). 2018.
+[4] Yang, Jun, et al. "Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames (IJRR). 2026.
+[5] Li, Alan, et al. "Multi-View Keypoints for Reliable 6D Object Pose Estimation (ICRA). 2023.
 
 # Citation
 If you find ROBI and T-ROBI dataset useful in your work, please consider citing:
