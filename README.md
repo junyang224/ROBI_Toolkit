@@ -45,11 +45,11 @@ jun.yang@ea.epson.com\
 Institute for Aerospace Studies, University of Toronto
 
 # References
-[1] Drost, Bertram, et al. "Model globally, match locally: Efficient and robust 3D object recognition." 2010 IEEE computer society conference on computer vision and pattern recognition. Ieee, 2010.\
-[2] Hinterstoisser, Stefan, et al. "Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes." Asian conference on computer vision. Springer, Berlin, Heidelberg, 2012.\
-[3] Sundermeyer, Martin, et al. "Implicit 3d orientation learning for 6d object detection from rgb images." Proceedings of the european conference on computer vision (ECCV). 2018.\
-[4] Yang, Jun, et al. "Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames (IJRR). 2026.\
-[5] Li, Alan, et al. "Multi-View Keypoints for Reliable 6D Object Pose Estimation (ICRA). 2023.
+[1] Drost, Bertram, et al. "Model globally, match locally: Efficient and robust 3D object recognition." IEEE computer society conference on computer vision and pattern recognition. IEEE, 2010.\
+[2] Hinterstoisser, Stefan, et al. "Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes." Asian conference on computer vision. Berlin, Heidelberg, 2012.\
+[3] Sundermeyer, Martin, et al. "Implicit 3d orientation learning for 6d object detection from rgb images." Proceedings of the European conference on computer vision (ECCV). 2018.\
+[4] Yang, Jun, et al. "Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames." International Journal on Robotics Research (IJRR). 2026.\
+[5] Li, Alan, and Angela P. Schoellig. "Multi-view keypoints for reliable 6d object pose estimation."  International Conference on Robotics and Automation (ICRA). 2023.
 
 # Citation
 If you find ROBI and T-ROBI dataset useful in your work, please consider citing:
